@@ -148,7 +148,7 @@ public class MainDialog extends javax.swing.JDialog {
         gridBagConstraints.insets = new java.awt.Insets(0, 5, 0, 0);
         buttonPanel.add(copy, gridBagConstraints);
 
-        settings.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/librebiz/noodleauth/gear-black.png"))); // NOI18N
+        settings.setIcon(new javax.swing.ImageIcon(getClass().getResource("/org/tastefuljava/noodleauth/gear-black.png"))); // NOI18N
         settings.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 settingsActionPerformed(evt);
