@@ -9,9 +9,9 @@ import java.awt.geom.Arc2D;
 import javax.swing.Icon;
 
 public class ClockIcon implements Icon {
-    private double angle;
     private final int width;
     private final int height;
+    private double angle;
     private Color fillColor = Color.CYAN;
     private Color strokeColor = null;
 
